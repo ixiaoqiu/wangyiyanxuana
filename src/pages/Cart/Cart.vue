@@ -3,9 +3,9 @@
     <div class="CartWrap">
       <!-- 头部 -->
       <div class="header">
-        <span class="text">购物车</span>
+        <span class="tet">购物车</span>
         <div class="right">
-          <span class="text">领券</span>
+          <span class="tet">领券</span>
         </div>
       </div>
       <!-- 三个时间 -->
@@ -46,14 +46,14 @@ export default {
       .header
         height  88px
         line-height 88px
-        .text
+        .tet
           font-size 42px
           color #333
           
         .right
           float right 
           margin-right 20px
-          .text
+          .tet
             color #DD1A21
             font-size 32px
       .timeWrap
