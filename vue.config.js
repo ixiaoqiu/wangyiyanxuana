@@ -18,8 +18,15 @@ module.exports = {
           pathRewrite:{
               "^/3002":""
           }
-      }
+      },
+      '/163':{
+        target: 'https://m.you.163.com',
+        changeOrigin: true,
+        pathRewrite:{
+            "^/163":""
+        }
   }
+ }
 },
 
 configureWebpack:{

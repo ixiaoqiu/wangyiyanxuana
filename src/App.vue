@@ -8,7 +8,7 @@
 
 <script>
 
-import footerNav from "../src/components/footerNav"
+import footerNav from "../src/components/fotterNav/footerNav"
 export default {
   name: 'App',
   components:{
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang='stylus'>
-@import url('//at.alicdn.com/t/font_1804715_yprxdxnown.css')
+@import url('//at.alicdn.com/t/font_1804715_bofh7m496eb.css')
   #app
     width 100%
     height 100%
