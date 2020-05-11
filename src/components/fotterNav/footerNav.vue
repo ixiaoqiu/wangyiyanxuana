@@ -1,6 +1,6 @@
 <template>
   <div class="navContainer">
-    <van-tabbar active-color='red' route>
+    <van-tabbar class="tabBar" active-color='red' route>
       <van-tabbar-item class="iconfont icon-caidan06" replace to='/Index'>
         <!-- <router-link>首页</router-link> -->
         首页
@@ -51,19 +51,25 @@ export default {
 <style lang='stylus'>
   .navContainer
     display flex
-    bottom 0
-    left 0
-    // .tabBar
-    //   width 100%
-    //   height 90px
-    //   line-height 90px
-    //   text-align center
-    //   background #fff
-    //   display flex
-     
-    //   .item
-    //     flex 1
-    //     font-size 30px
+    width 100%
+    height 100px
+    position relative
+    
+    .tabBar
+      display flex
+      width 100%
+      height 100px !important
+      line-height 40px
+      position absolute
+      left 0
+      top -100px
+      background #fff
+      &:after
+          content '',
+          font-size 40px
+      .iconfont
+        flex 1
+        margin-left 40px !important
     .van-tabbar-item--active
       a
         color red

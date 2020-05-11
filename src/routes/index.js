@@ -16,7 +16,7 @@ export default [
   {path:"/Category",component:Category,meta:{showFooter:true}},
   {path:"/Buy",component:Buy,meta:{showFooter:true}},
   {path:"/Cart",component:Cart,meta:{showFooter:true}},
-  {path:"/search",component:search},
+  {path:"/search",component:search,meta:{showFooter:true}},
 
   {
     path:"/Login",

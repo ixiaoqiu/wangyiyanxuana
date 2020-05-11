@@ -4,8 +4,8 @@ export default{
       url:"/getIndexData",
       corsUrl: '/3002',
       method:"get",
-      isToast:false,
+      isToast:false,//请求
     },
   },
-  name:'index',
+  name:'index',//代表当前是那儿一个模块
 }

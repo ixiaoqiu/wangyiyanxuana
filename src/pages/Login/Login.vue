@@ -27,7 +27,7 @@ export default {
 <style lang='stylus'>
 	.UserWrap
 		width 100%
-		height calc(100vh - 48px)
+		height 100%
 						
 
 </style>

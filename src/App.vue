@@ -2,7 +2,7 @@
   <div id="app">
     <!-- 渲染一级路由 -->
      <router-view></router-view>
-     <footerNav></footerNav>
+     <footerNav v-if="$route.meta.showFooter"></footerNav>
   </div>
 </template>
 

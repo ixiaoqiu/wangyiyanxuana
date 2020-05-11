@@ -1,0 +1,20 @@
+export default{
+  api:{
+    //界面初始化显示数据
+    getSearchHouData:{
+      url:'xhr/search/init.json',
+      corsUrl:'/163',
+      method:"get",
+      isToast:false
+    },
+    //搜索关键字
+    searchData:{
+      url:"xhr/search/searchAutoComplete.json",
+      corsUrl:'/163',
+      method:"post",
+      isForm:true,
+      isToast:false
+    }
+  },
+  name:'index'
+}

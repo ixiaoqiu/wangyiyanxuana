@@ -9,7 +9,7 @@
         <span>搜索商品，共99999款好物</span>
       </div>
       <div class="login">
-        <span>登录</span>
+        <span @click="$router.push('/Login')">登录</span>
       </div>
     </div>
    
@@ -191,12 +191,16 @@ export default {
 </script>
 
 <style lang='stylus'>
-  html,body
-    overflow hidden
-    overflow-y auto
+  // html,body
+  //   width 100%
+  //   height 100%
+  //   overflow hidden
+  //   overflow-y hidden
   .indexContainer
+    width 100%
+    height 100%
     .header
-      height 44px
+      height 60px
       width 100%
       display flex
       padding 5px 10px
